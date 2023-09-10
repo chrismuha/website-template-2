@@ -429,7 +429,7 @@ box-shadow: none !important;
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url(https://chrismuha.com/public/img/menu.png) !important;
+    background-image: url(../img/menu.png) !important;
     background-size: 30px !important;
 }
 
@@ -1559,4 +1559,8 @@ html {
     .page-banner::before {
         bottom: -1.2rem;
     }
+}
+
+i.fa {
+    padding-right: 0.2rem;
 }
