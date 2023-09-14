@@ -1271,17 +1271,17 @@ i {
 }
 
 .navbar>.container-fluid {
-    justify-content: space-evenly;    
+    justify-content: space-between;    
 }
 /* 
 .swiper, swiper-container {
     max-width: 30rem;   
 } */
 
-.brand-desk {
-    display: none;
+.first-half {
+    display: flex;
+    gap: 1rem;
 }
-
 @media(min-width:1100px) {
     .menu {
         position: relative;
@@ -1309,14 +1309,6 @@ i {
     }
 
     .nav-toggle-btn {
-        display: none;
-    }
-
-    .brand-desk {
-        display: block;
-    }
-
-    .brand-mob {
         display: none;
     }
 }
@@ -1563,4 +1555,8 @@ html {
 
 i.fa {
     padding-right: 0.2rem;
+}
+
+.navbar-brand p {
+    all: unset;
 }

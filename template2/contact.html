@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta version="2">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -39,24 +38,49 @@
          /* Keep this css code below if you want the page banner */
          .page-banner::before {
             content: 'Contact Us';
-            color: red;
+            color: red; /* change color of page banner text */
+        }
+
+        /*change hover color of nav pages links*/
+        .menu-main a:hover {
+            color: rgb(187, 187, 196) !important;
         }
     </style>
 </head>
 <body>
 
 <div id="preloader">
-    <img src="public/img/" alt="Insert Loading logo">
+    <!-- unhide the code below to specify splash logo -->
+    <!-- <img src="public/img/" alt="Insert Loading logo"> -->
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark nav-mob scrollclick" id="nav">
+<nav class="navbar navbar-expand-lg navbar-color nav-mob scrollclick" id="nav">
     <div class="container-fluid" id="navContainer">
 
-        <div class="brand-desk">
-            <a class="navbar-brand" href="index.html" target="_self">
-                <img src="" alt="Insert Logo">
-            </a>
+        <div class="first-half">
+            <div class="brand-desk">
+                <a class="navbar-brand" href="index.html" target="_self">
+                    <!--once you have your img ready, delete the paragraph text, and unhide img-->
+                    <p>Insert Brand Logo</p>
+                    <!-- <img src="insert brand logo path link">  -->
+                </a>
+            </div>
+            <div class="hide-menu a-nav-toggle"></div>
+    
+            <div class="menu">
+    
+              <nav class="menu-main" id="accordion">
+                <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" target="_self">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_self">CONTACT US</a>
+                    </li>
+                  </ul>
+              </nav>
         </div>
+
 
         <button class="nav-toggle-btn a-nav-toggle">
             <span class="nav-toggle">
@@ -65,28 +89,14 @@
             </span>
         </button>
 
-        <a class="navbar-brand brand-mob" href="index.html" target="_self">
-            <img src="insert brand logo path link" alt="insert brand logo"> 
-        </a>
+        
 
-        <div class="hide-menu a-nav-toggle"></div>
-
-        <div class="menu">
-
-          <nav class="menu-main" id="accordion">
-            <ul id="menuMain" class="navbar-nav d-flex flex-column ms-3">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html" target="_self">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html" target="_self">CONTACT US</a>
-                </li>
-              </ul>
-          </nav>
+        
         
         </div>
     </div>
 </nav>
+
 <!--page banner with text header below-->
 <!--
 <div class="page-banner">
@@ -96,6 +106,7 @@
 
 <!--normal text header below-->
 <div class="header">
+    <!--change color of the page header by replacing unset value below-->
     <h1 class="fw-bold title-bg-black" style="color: unset;">CONTACT US</h1>
 </div>
 <div class="text-center">
