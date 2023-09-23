@@ -1506,7 +1506,7 @@ html {
 
 .location {
     width: fit-content;
-    margin: auto 2rem;
+    margin: auto;
 }
 }
 
@@ -1565,5 +1565,9 @@ i.fa {
 
 .brand-desk img, .brand-desk p {
     height: 7rem;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+.navbar {
+    border: 1px solid lime !important;    
 }
