@@ -648,7 +648,10 @@ body :not(.dark-theme) .text-grn
 }
 
 .body-menu-opened .hide-menu {
-    bottom: 0;
+    bottom: 0; 
+}
+.body-menu-opened .navbar {
+    border: 0px !important;
 }
 
 @media (min-width: 576px) {
