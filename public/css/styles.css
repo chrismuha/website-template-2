@@ -1580,3 +1580,6 @@ i.fa {
     background-color: #000;
 } */
 
+.navbar-brand p {
+    color: white;
+}
