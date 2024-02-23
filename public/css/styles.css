@@ -41,7 +41,7 @@ input[type=checkbox]:checked::after {
 
 body.dark-theme {
     background-color: black;
-    color: #FFFFFF !important;
+    color: white !important;
 }
 
 body {
@@ -49,7 +49,7 @@ body {
 }
 
 .dark-theme .text-black-50 {
-    color: #5C5C5C !important
+    color: #5c5c5c !important
 }
 
 .dark-theme .card {
@@ -244,7 +244,7 @@ font-weight:500 !important;
 
 .books .card > a {
     font-size: 14px;
-    color: #4198D0 !important;
+    color: #4198d0 !important;
 
 }
 
@@ -254,25 +254,25 @@ font-weight:500 !important;
 }
 
 .btn-success {
-    background-color: #32CD32;
-    border-color: #32CD32;
+    background-color: #32cd32;
+    border-color: #32cd32;
 }
 
 .btn-success:hover, .btn-success:focus {
-    outline-color: #79EF79;
-    background-color: #79EF79;
-    border-color: #79EF79;
+    outline-color: #79ef79;
+    background-color: #79ef79;
+    border-color: #79ef79;
 }
 
 .btn-primary {
-    background-color: #00BFFF;
-    border-color: #00BFFF;
+    background-color: #00bfff;
+    border-color: #00bfff;
 }
 
 .btn-primary:hover, .btn-success:focus {
-    outline-color: #6BCDEF;
-    background-color: #6BCDEF;
-    border-color: #6BCDEF;
+    outline-color: #6bcdef;
+    background-color: #6bcdef;
+    border-color: #6bcdef;
 }
 
 .footer-links > div {
