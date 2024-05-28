@@ -862,9 +862,7 @@ box-shadow: none !important;
     right: 30px;    
 }
 
-@media(max-width: 767px)
-{
-
+@media(max-width: 767px) {
 .menu {
     padding:  63pt 4.5pt 50.25pt;
 }
@@ -873,11 +871,9 @@ box-shadow: none !important;
 width: 275px;    
 }
 
-.menu-main > ul > li
-{
+.menu-main > ul > li {
     margin: 0;
 }
-
 }
 
 @media only screen and (max-width: 400px) {
